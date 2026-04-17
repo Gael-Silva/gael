@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Cuestionario</title>
+
+<style>
+body{
+    margin:0;
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family: Arial;
+}
+
+/* 📱 SIMULACIÓN CELULAR */
+.app{
+    width:360px;
+    height:640px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+}
+
+/* 🔹 TÍTULO */
+.header{
+    text-align:center;
+    padding:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* 🔹 SCROLL */
+.contenido{
+    flex:1;
+    overflow-y:auto;
+    padding:20px;
+}
+
+.pregunta{
+    margin-bottom:25px;
+}
+
+input{
+    width:100%;
+    border:none;
+    border-bottom:2px solid gray;
+    padding:8px;
+    outline:none;
+}
+
+/* 🔹 BOTÓN ABAJO */
+.footer{
+    padding:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:20px;
+    background:#6c5ce7;
+    color:white;
+    font-size:16px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+    <div class="header">
+        CUESTIONARIO
+    </div>
+
+    <div class="contenido">
+
+        <div class="pregunta">
+            <p>Si una película está doblada... ¿solo ves la mitad?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>Cuando un abogado enloquece... ¿pierde el juicio?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>Si dormir es gratis... ¿por qué cuesta tanto levantarnos?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿México es una república?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿El agua moja o solo hace que las cosas se mojen?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿Por qué las cosas que queremos hacer son las que no debemos?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿El tiempo realmente pasa o somos nosotros?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿Qué fue primero: el huevo o la gallina?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿El silencio también hace ruido?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿Por qué soñamos?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿Qué es la realidad?</p>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <p>¿Somos libres realmente?</p>
+            <input type="text">
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <button>Calificar</button>
+    </div>
+
+</div>
+
+</body>
+</html>
